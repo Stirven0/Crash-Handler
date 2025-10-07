@@ -1,0 +1,30 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:2:1-15:12
+INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:2:1-15:12
+	package
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:4:2-13:16
+activity#com.aa.crash_handler.CrashActivity
+ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:6:9-8:39
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:8:13-37
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:7:13-42
+activity#com.aa.crash_handler.CrashActivity1
+ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:9:9-11:39
+	android:exported
+		ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:10:13-43
+uses-sdk
+INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /storage/emulated/0/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml
