@@ -1,0 +1,23 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.aa.crash_handler" >
+4
+5    <uses-sdk android:minSdkVersion="34" />
+6
+7    <application>
+7-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:4:2-13:16
+8        <activity
+8-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:6:9-8:39
+9            android:name="com.aa.crash_handler.CrashActivity"
+9-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:7:13-42
+10            android:exported="false" />
+10-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:8:13-37
+11        <activity
+11-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:9:9-11:39
+12            android:name="com.aa.crash_handler.CrashActivity1"
+12-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:10:13-43
+13            android:exported="false" />
+13-->/sdcard/AndroidIDEProjects/Crash Handler Sample/crash-handler/src/main/AndroidManifest.xml:11:13-37
+14    </application>
+15
+16</manifest>
