@@ -37,3 +37,14 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-livedata:2.5.1")
     implementation("androidx.core:core:1.12.0")
 }
+
+// Tarea que copia y renombra el AAR release
+tasks.register<Copy>("releaseAar") {
+    group       = "publishing"
+    description = "Genera AAR release con versión"
+    dependsOn("assembleRelease")
+    from(tasks.named("bundleReleaseAar"))
+    include("*.aar")
+    into(layout.buildDirectory.dir("outputs/release"))
+    rename("${project.getName()}-release.aar", "${project.getName()}-${rootProject.extra["libVersion"]}.aar")
+}
