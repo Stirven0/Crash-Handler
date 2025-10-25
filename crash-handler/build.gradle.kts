@@ -24,6 +24,13 @@ android {
     buildFeatures {
         viewBinding = true
     }
+    
+    publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+    }
 
 }
 
@@ -48,4 +55,17 @@ tasks.register<Copy>("releaseAar") {
     include("*.aar")
     into(layout.buildDirectory.dir("outputs/release"))
     rename("${project.getName()}-release.aar", "${project.getName()}-${rootProject.extra["libVersion"]}.aar")
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.Stirven0"
+                artifactId = "${project.getName()}"
+                version = "${rootProject.extra["libVersion"]}"
+            }
+        }
+    }
 }
