@@ -1,5 +1,6 @@
 plugins {
     id("com.android.library")
+    id("maven-publish")
 }
 
 android {
@@ -7,7 +8,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        minSdk = 34
+        minSdk = 21
         targetSdk = 35
         
         vectorDrawables { 
