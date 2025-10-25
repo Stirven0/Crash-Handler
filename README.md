@@ -1,0 +1,1 @@
+[![](https://jitpack.io/v/Stirven0/Crash-Handler.svg)](https://jitpack.io/#Stirven0/Crash-Handler)
